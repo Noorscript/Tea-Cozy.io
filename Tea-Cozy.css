@@ -1,0 +1,128 @@
+*{
+    font-family: Helvetica;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;  /* The given properties will apply to the entire webpage */
+}
+
+ul li{
+    list-style-type: none;
+    margin: 5px;
+    display: inline;
+    text-decoration: underline; /* Alters an unordered list to be inline, like a navbar */
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Makes sure the header is fixed while scrolling */
+}
+
+#logo{
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.our-mission{
+    width: 1200px;
+    height: 700px;
+    border-bottom: 1px solid seashell;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 69px;
+}
+
+.our-mission img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#our-mission-text{ /* Makes the text appear in the middle of the section */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    transform: translate(-50%, -50%);
+    line-height: 0.5; 
+}
+
+.Tea-of-the-month{ 
+    width: 1000px;
+    margin: 50px 0;
+    display:flex;       /* This section is a flex container with flex items */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 220px; 
+}
+
+.cute-seasonal-pics img{ /* Flex items */
+    height: 200px;
+    width: 300px;
+}
+
+.cute-seasonal-pics h4{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.centered-text{
+    text-align: center; /* Headings for each section */
+}
+
+.locations{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    background-image: url("../images/img-locations-background.jpg"); 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 110px;
+}
+
+.important-info{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin: 15px 40px;
+
+}
+
+#location{
+    position: relative;
+    top: 100px;
+    right: 20px;
+}
+
+.Ending-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 260px;
+    text-align: center;
+}
+
+#copyrights{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
